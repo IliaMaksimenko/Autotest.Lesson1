@@ -1,10 +1,11 @@
 import org.testng.annotations.Test;
+
 import static org.testng.AssertJUnit.*;
 
 public class CashbackHackerTest {
 
     @Test
-    public void shouldAdviseToBuy(){
+    public void shouldAdviseToBuy() {
 
         CashbackHackerService cashbackHacker = new CashbackHackerService();
 
@@ -19,7 +20,7 @@ public class CashbackHackerTest {
     }
 
     @Test
-    public void theAmountIsMultiple(){
+    public void theAmountIsMultiple() {
 
         CashbackHackerService cashbackHacker = new CashbackHackerService();
 
